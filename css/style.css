@@ -4,7 +4,7 @@ body
 		background-color: hsla(0,0%,100%,1);
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		font-size: medium;
-		margin: 30px 0 10px 0;
+		margin: 0 0 10px 0;
 		text-transform: lowercase;
 	}
 
@@ -21,7 +21,8 @@ article, aside, footer, header, nav, section
 
 h1
 	{
-		font-size: xx-large;
+		font-size: 80px;
+		font-weight: normal;
 	}
 
 img
@@ -42,18 +43,8 @@ table
 
 #content
 	{
-		height: 460px;
-		margin: 30px 0;
-	}
-
-#content aside img
-	{
-		float: right;
-	}
-
-#content h1, #content p
-	{
-		text-align: justify;
+		font-size: 20px;
+		height: 770px;
 	}
 
 #copyright
@@ -81,7 +72,7 @@ table
 	{
 		font-size: small;
 		height: 250px;
-		text-align: justify;
+		text-align: left;
 	}
 
 #copyright section article a
@@ -97,7 +88,7 @@ table
 
 #github
 	{
-		background-color: hsla(0,0%,27%,1);
+		background-color: hsla(0,0%,50%,1);
 		overflow: hidden;
 		position: fixed;
 		right: -55px;
@@ -118,7 +109,7 @@ table
 
 #github a:hover
 	{
-		background-color: hsla(0,0%,50%,1);
+		background-color: hsla(0,0%,75%,1);
 	}
 
 #stack_overflow
