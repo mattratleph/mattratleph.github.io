@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /CNAME
+Disallow: /README.markdown
+Allow: /
+Disallow: /fullrangefighting/
+
