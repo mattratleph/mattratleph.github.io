@@ -1,11 +1,15 @@
+html {
+  font-size: 62.5%;
+}
 body {
   background: hsl(0,0%,100%);
   color: hsl(0,0%,50%);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: lowercase;
-  & > section, footer {
+  & > section {
     margin: 0 auto;
-    width: 1024px;
+    max-width: 600px;
+    padding: 2.0rem;
   }
 }
 a {
@@ -16,12 +20,13 @@ a {
   }
 }
 h1, p {
-  line-height: 1.25em;
-  margin: 1em 0;
+  margin: 2.0rem 0;
 }
 h1 {
-  font-size: 75px;
+  font-size: 4.0rem;
+  line-height: 5.0rem;
 }
 p {
-  font-size: 20px;
+  font-size: 2.0rem;
+  line-height: 2.5rem;
 }
