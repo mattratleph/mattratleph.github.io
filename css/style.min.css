@@ -6,8 +6,11 @@ blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
 html{font-size:62.5%;}
-body{background:#ffffff;color:#808080;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:lowercase;}body >section{margin:0 auto;max-width:600px;padding:2.0rem;}
-a{color:#000000;text-decoration:none;}a:hover{border-bottom:1px solid #000000;}
-h1,p{margin:2.0rem 0;}
-h1{font-size:4.0rem;line-height:5.0rem;}
-p{font-size:2.0rem;line-height:2.5rem;}
+body{background:#ffffff;color:#000000;font-family:Georgia,Times,"Times New Roman",serif;text-transform:lowercase;}body >section{margin:0 auto;max-width:600px;padding:2.0rem;}
+a{color:#808080;text-decoration:none;}a:hover{border-bottom:1px solid #808080;}
+h1,h2,h3,p{margin:3.0rem 0;}
+h1,h2,h3{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+h1{font-size:4.0rem;line-height:6.0rem;}
+h2{font-size:3.0rem;line-height:5.0rem;}
+h3{font-size:2.0rem;line-height:4.0rem;}
+p{font-size:2.0rem;line-height:4.0rem;}
