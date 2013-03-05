@@ -4,9 +4,9 @@ This is an author page repository for Matt Ratleph, viewable at [mattratleph.com
 
 ## Copyright
 
-This site is Uncopyrighted. Its author, Matt Ratleph, has released all claims on copyright and has put all the content of this site into the public domain.
+All original content is Uncopyrighted. Its author, Matt Ratleph, has released all claims on copyright and has put all original content into the public domain.
 
-No permission is needed to copy, distribute, or modify the content of this site. Credit is appreciated but not required.
+No permission is needed to copy, distribute, or modify the original content. Credit is appreciated but not required.
 
 ### Terms and Conditions for Copying, Distribution and Modification
 
