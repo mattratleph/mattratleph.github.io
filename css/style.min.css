@@ -18,5 +18,4 @@ blockquote{border-left:5px solid #808080;margin-left:4.0rem;padding-left:2.0rem;
 ol,ul{margin-left:4.0rem;}
 ol{list-style:decimal inside;}
 ul{list-style:disc inside;}
-img{height:auto;width:100%;}
-a{text-decoration:none;}a:hover{border-bottom:1px solid #808080;}
+a{text-decoration:none;}
