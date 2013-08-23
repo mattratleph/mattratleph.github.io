@@ -14,6 +14,6 @@ I feel like I can finally breathe a bit in the calm of solitude. That's mainly w
 
 Is that terrifying? It seems so, at least to most people I talk to. I sometimes wonder why that is. Maybe it's a product of our digital age. We're constantly wired, always connected, always rushing about. Quiet seems odd. Foreign. Abnormal. So we just continue to rush. We continue to fill our schedules. We don't want to seem unproductive, right?
 
-Maybe there is benefit to be had by retreating a bit every so often. Our culture is so loud, constantly trying to grab our attention. In a couple weeks I hope to be in a cabin, reading a book after having went for a hike. Maybe you should to. Just make sure you're in that cabin way over there. I want to be alone.
+Maybe there is benefit to be had by retreating a bit every so often. Our culture is so loud, constantly trying to grab our attention. In a couple weeks I hope to be in a cabin, reading a book after having went for a hike. Maybe you should too. Just make sure you're in that cabin way over there. I want to be alone.
 
 [Source](index.md)
