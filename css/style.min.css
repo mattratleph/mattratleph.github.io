@@ -9,8 +9,7 @@ html{font-size:62.5%;}
 body{background:#ffffff;color:#000000;font-family:Garamond, Baskerville, Times, serif;text-transform:lowercase;}
 section{margin:0 auto;max-width:700px;padding:0 3.0rem;}
 h1,h2,h3,p,blockquote,ol,ul{margin:3.0rem 0;}
-h2,h3,blockquote,a{color:#808080;}
-h1,h2,h3{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:100;}
+h1,h2,h3{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:100;}
 h1{font-size:8.0rem;line-height:10.0rem;}
 h2{font-size:6.0rem;line-height:8.0rem;}
 h3{font-size:4.0rem;line-height:6.0rem;}
@@ -19,4 +18,4 @@ blockquote{margin-left:4.0rem;padding-left:2.0rem;}
 ol,ul{margin-left:4.0rem;}
 ol{list-style:decimal inside;}
 ul{list-style:disc inside;}
-a{text-decoration:none;}
+a{color:#808080;text-decoration:none;}
