@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>mattratleph.com - christian. minimalist. hacker. creator.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Matt Ratleph">
+    <meta name="description" content="Portfolio of Matt Ratleph: christian, minimalist, hacker, and creator.">
+    <meta name="keywords" content="portfolio, robert ratleph, robert matthew ratleph, matthew ratleph, matt ratleph, robert, matthew, matt, ratleph, christian, minimalist, hacker, creator, github, ambient, downtempo, trip hop, blog, posts, books, redeemer community church, crossway, wheaton, illinois">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+  </head>
+  <body>
+    <section style="text-align: center;">
+      <h1>We get married in</h1>
+      <h2 id="countdown" style="color: hsl(0,0%,50%);"></h2>
+      <h3 style="color: hsl(0,100%,70%);">&#x2661;&#x2661;&#x2661;</h3>
+      <script>  
+        var target_date = new Date("Mar 30, 2014").getTime();
+        var days, hours, minutes, seconds;
+        var countdown = document.getElementById("countdown");
+        setInterval(function () {
+          var current_date = new Date().getTime();
+          var seconds_left = (target_date - current_date) / 1000;
+          days = parseInt(seconds_left / 86400);
+          seconds_left = seconds_left % 86400;
+          hours = parseInt(seconds_left / 3600);
+          seconds_left = seconds_left % 3600;
+          minutes = parseInt(seconds_left / 60);
+          seconds = parseInt(seconds_left % 60);
+          countdown.innerHTML = days + " days, " + hours + " hours, "
+          + minutes + " minutes, " + seconds + " seconds";  
+        }, 1000);
+      </script>
+    </section>
+  </body>
+</html>
