@@ -1,10 +1,11 @@
+@import 'reset.css';
 html {
   font-size: 62.5%;
 }
 body {
   background: hsl(0,0%,100%);
   color: hsl(0,0%,0%);
-  font-family: Garamond, Baskerville, Times, serif;
+  font-family: serif;
   text-transform: lowercase;
 }
 section {
@@ -16,7 +17,7 @@ h1, h2, h3, p, blockquote, ol, ul {
   margin: 3.0rem 0;
 }
 h1, h2, h3 {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   font-weight: 100;
 }
 h1 {
