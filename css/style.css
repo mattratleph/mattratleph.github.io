@@ -21,20 +21,20 @@ h1, h2, h3 {
   font-weight: 100;
 }
 h1 {
-  font-size: 8.0rem;
-  line-height: 10.0rem;
+  font-size: 5.0rem;
+  line-height: 7.0rem;
 }
 h2 {
-  font-size: 6.0rem;
-  line-height: 8.0rem;
-}
-h3 {
   font-size: 4.0rem;
   line-height: 6.0rem;
 }
+h3 {
+  font-size: 3.0rem;
+  line-height: 5.0rem;
+}
 p, blockquote, ol, ul {
-  font-size: 2.5rem;
-  line-height: 3.5rem;
+  font-size: 2.25rem;
+  line-height: 3.75rem;
 }
 blockquote {
   margin-left: 4.0rem;
@@ -50,6 +50,7 @@ ul {
   list-style: disc inside;
 }
 a {
-  color: hsl(0,0%,50%);
+  border-bottom: 1px solid hsl(0,0%,0%);
+  color: hsl(0,0%,0%);
   text-decoration: none;
 }
