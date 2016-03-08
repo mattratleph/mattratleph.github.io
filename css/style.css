@@ -43,7 +43,7 @@ ol {
   list-style: decimal inside;
 }
 ul {
-  list-style: disc inside;
+  list-style: circle inside;
 }
 a {
   border-bottom: 1px solid hsl(0,0%,0%);
