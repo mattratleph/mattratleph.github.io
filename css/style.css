@@ -3,8 +3,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: url("../img/background.jpg") top no-repeat hsl(0,0%,97%);
-  background-size: cover;
+  background: hsl(0,0%,97%);
   color: hsl(40,10%,30%);
   font-family: "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
 }
@@ -16,6 +15,10 @@ header, section {
 }
 header {
   text-align: center;
+}
+header img {
+  border-radius: 50%;
+  margin: 2rem 0 1rem;
 }
 header p {
   color: hsla(40, 10%, 30%, 0.65);
