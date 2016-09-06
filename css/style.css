@@ -3,34 +3,57 @@ html {
   font-size: 62.5%;
 }
 body {
+  background: hsl(0,0%,97%);
+  color: hsl(40,10%,30%);
+  font-family: "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+}
+header {
+  background: url("../img/header.jpg") center;
+  background-size: cover;
+  height: 35rem;
+  position: relative;
+}
+header img {
+  border: 3px solid white;
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: -67px;
+  margin-left: -67px;
+  position: absolute;
+}
+.description {
+  margin: 9rem auto 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin-left: 0;
+}
+nav li {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+.speaking {
   background: hsl(0,0%,100%);
-  color: hsl(0,0%,0%);
-  font-family: serif;
+  margin: 5rem auto;
+  max-width: 700px;
+  padding: 1.5rem 5.0rem;
   text-transform: lowercase;
 }
-section {
-  margin: 0 auto;
-  max-width: 700px;
-  padding: 0 3.0rem;
-}
 h1, h2, h3, p, blockquote, ol, ul {
-  margin: 3.0rem 0;
+  font-size: 1.5rem;
+  letter-spacing: .025rem;
+  line-height: 3.0rem;
+  margin: 1.5rem 0;
 }
-h1, h2, h3 {
-  font-family: sans-serif;
-  font-weight: 100;
+h1, h2 {
+  font-weight: bold;
 }
-h1 {
-  font-size: 4.0rem;
-  line-height: 5.5rem;
-}
-h2 {
-  font-size: 3.0rem;
-  line-height: 4.5rem;
-}
-h3, p, blockquote, ol, ul {
-  font-size: 2.0rem;
-  line-height: 3.5rem;
+h3 {
+  font-style: italic;
 }
 blockquote {
   margin-left: 4.0rem;
@@ -46,7 +69,6 @@ ul {
   list-style: circle inside;
 }
 a {
-  border-bottom: 1px solid hsl(0,0%,0%);
-  color: hsl(0,0%,0%);
+  color: hsl(200,50%,60%);
   text-decoration: none;
 }
