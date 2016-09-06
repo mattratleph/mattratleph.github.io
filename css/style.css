@@ -3,7 +3,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: url("../img/background.jpg") top hsl(0,0%,97%);
+  background: url("../img/background.jpg") top no-repeat hsl(0,0%,97%);
   background-size: cover;
   color: hsl(40,10%,30%);
   font-family: "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
