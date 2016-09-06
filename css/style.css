@@ -9,7 +9,7 @@ body {
   font-family: "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
 }
 header, section {
-  background: hsla(0,0%,100%, 0.9);
+  background: hsla(0,0%,100%, 0.95);
   margin: 5rem auto;
   max-width: 70rem;
   padding: 1.5rem 5rem;
