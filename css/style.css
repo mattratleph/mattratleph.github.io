@@ -3,8 +3,8 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: hsl(0,0%,97%);
-  color: hsl(40,10%,30%);
+  background: hsl(0,0%,98%);
+  color: hsl(0,0%,30%);
   font-family: "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
 }
 header, section {
@@ -21,7 +21,7 @@ header img {
   margin: 2rem 0 1rem;
 }
 header p {
-  color: hsl(25, 5%, 60%);
+  color: hsl(0, 0%, 60%);
 }
 nav ul {
   list-style: none;
