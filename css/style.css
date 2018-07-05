@@ -14,9 +14,9 @@ header, section {
   max-width: 80rem;
 }
 header {
-  background: url(../img/banner.png);
+  background: url(../img/banner.jpg);
   background-size: cover;
-  height: 30rem;
+  height: 31.5rem;
 }
 section {
   padding: 1.5rem 5rem;
