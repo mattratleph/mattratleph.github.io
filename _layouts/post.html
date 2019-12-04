@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% if page.banner %}
+  {% if page.categories contains "videos" %}
+    <video class="banner" controls src="{{ page.banner }}"></video>
+  {% else %}
+    <img class="banner" src="{{ page.banner }}">
+  {% endif %}
+{% endif %}
+<article>
+  <div class="meta clear">
+    <h1 class="left"><a href="/posts/">..</a>/{{ page.title }}</h1>
+    <p class="right"><em>{{ page.date | date_to_string }}</em></p>
+  </div>
+  {{ content }}
+  <div class="meta clear">
+    <p class="left"><em>{{ page.categories | join: ", " }}</em></p>
+    <p class="right"><em>{{ page.tags | join: ", " }}</em></p>
+  </div>
+</article>
