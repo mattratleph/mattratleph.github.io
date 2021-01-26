@@ -1,0 +1,68 @@
+@import 'reset.css';
+html {
+  font-size: 62.5%;
+}
+body {
+  background: hsl(0,0%,98%);
+  color: hsl(0,0%,30%);
+  font-family: "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+  text-transform: lowercase;
+}
+header, section {
+  background: hsl(0,0%,100%);
+  box-sizing: border-box;
+  margin: 2.5rem auto;
+  max-width: 75rem;
+  padding: 1rem 3rem;
+}
+h1, h2, h3, p, blockquote, ol, ul, iframe {
+  font-size: 1.5rem;
+  letter-spacing: .025rem;
+  line-height: 2.5rem;
+  margin: 2rem 0;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
+p, blockquote, ol, ul {
+  color: hsl(0, 0%, 60%);
+}
+blockquote, ol, ul {
+  margin-left: 5rem;
+}
+ol {
+  list-style: decimal inside;
+}
+ul {
+  list-style: circle inside;
+}
+nav ul {
+  list-style: none;
+  margin-left: 0;
+}
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+a {
+  color: hsl(200,50%,60%);
+  text-decoration: none;
+}
+small {
+  font-size: smaller;
+}
+.center {
+  text-align: center;
+}
+.avatar {
+  border-radius: 50%;
+  display: initial;
+  margin: 2rem 0 1rem;
+  width: 10rem;
+}
