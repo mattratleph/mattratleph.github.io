@@ -4,4 +4,4 @@ This is an author page repository for Matt Ratleph, viewable at [mattratleph.com
 
 ## Copyright
 
-All content created by Matt Ratleph is dedicated to the public domain under a Creative Commons CC0 1.0 Universal license.
+All content created by Matt Ratleph is released under a Creative Commons CC BY-NC-SA 4.0 license.
